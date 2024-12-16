@@ -1,0 +1,20 @@
+DirectoryIndex login.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /1399abib/
+    
+    # Izinkan akses langsung ke folder assets
+    RewriteRule ^assets/ - [L]
+    
+    # Aturan rewrite lainnya
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . index.php [L]
+</IfModule>
+
+# Izinkan akses ke file CSS
+<FilesMatch "\.(css|js|jpg|jpeg|png|gif)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch> 
