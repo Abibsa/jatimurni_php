@@ -1,7 +1,7 @@
 ## jatimurni_php
 Nama : Muhammad Ashab Ibnu Abdul Aziz | Nim : 231240001399
 
-##Langkah-langkah Membuka Proyek
+## Langkah-langkah Membuka Proyek
 1. Clone atau unduh repositori ini ke folder web server Anda.
 
 2. Pastikan MongoDB terinstal dan berjalan di sistem Anda.
