@@ -12,4 +12,4 @@ Impor database yang sudah disediakan menggunakan perintah:
 
 (pastikan untuk mendownload MongoDB Database Tools terlebih dahulu dan menambahkan folder bin nya ke path)
 
-mongorestore --db 1399meubel database_dump/1399meubel/
+``mongorestore --db 1399meubel database_dump/1399meubel/``
